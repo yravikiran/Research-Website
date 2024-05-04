@@ -1,483 +1,310 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="./assets/css/styles.css">
+      <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+      <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+      <link rel="icon" type="image/x-icon" href="./assets/images/cap_image.png">
+      <title>RaviKiran Y</title>
+   </head>
+   <body>
+      <!--===== HEADER =====-->
+      <header class="l-header">
+         <nav class="nav bd-grid">
+            <div>
+               <a href="#" class="nav__logo">My Research Website</a>
+            </div>
+            <div class="nav__menu" id="nav-menu">
+               <ul class="nav__list">
+                  <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                  <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                  <li class="nav__item"><a href="#education" class="nav__link">Education</a></li>
+                  <li class="nav__item"><a href="#research" class="nav__link">Research Interests</a></li>
+                  <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+                  <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+               </ul>
+            </div>
+            <div class="nav__toggle" id="nav-toggle">
+               <i class='bx bx-menu'></i>
+            </div>
+         </nav>
+      </header>
 
-        <link rel="stylesheet" href="./assets/css/styles.css">
-        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
-        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+      <main class="l-main">
 
-        <link rel="icon" type="image/x-icon" href="./assets/images/cap_image.png">
-        <title>RaviKiran Y</title>
-    </head>
-    <body>
-        <!--===== HEADER =====-->
-        <header class="l-header">
-            <nav class="nav bd-grid">
-                <div>
-                    <a href="#" class="nav__logo">My Portfolio</a>
-                </div>
+         <!--===== HOME =====-->
+         <section class="home bd-grid" id="home">
+            <div class="home__data">
+               <h1 class="home__title">Dr. Ravikiran <br> Yeleswarapu 
+               </h1>
+               <h2 style="font-size: x-large;">Assistant Professor</h2>
+               <h2 style="font-size:large;">Dept. of Electrical and Electronics Engineering</h2>
+               <br><br>
+               <a href="#contact" class="button">Contact</a>
+            </div>
+            <div class="home__social">
+               <a href="https://www.linkedin.com/in/raviyel/" class="home__social-icon" target="_blank" rel="noopener noreferrer"><i id = 'icons' class='bx bxl-linkedin'></i></a>
+               <a href="https://scholar.google.com/citations?user=ky_-TJwAAAAJ&hl=en" class="home__social-icon" target="_blank" rel="noopener noreferrer"><i id = 'icons' class='bx bxs-graduation' ></i></a>
+               <a href="https://github.com/yravikiran" class="home__social-icon" target="_blank" rel="noopener noreferrer"><i id = 'icons' class='bx bxl-github' ></i></a>
+            </div>
+            <div class="home__img">
+               <div class="about__img">
+                  <img src="./assets/images/pic2.jpeg" alt="">
+               </div>
+            </div>
+         </section>
 
-                <div class="nav__menu" id="nav-menu">
-                    <ul class="nav__list">
-                        <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
-                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
-                        <li class="nav__item"><a href="#education" class="nav__link">Education</a></li>
-                        <li class="nav__item"><a href="#research" class="nav__link">Research Interests</a></li>
-                        <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
-                        <!-- <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li> -->
-                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
-                    </ul>
-                </div>
+         <!--===== ABOUT =====-->
+         <section class="about section " id="about">
+            <h2 class="section-title">About</h2>
+            <div class="about__container bd-grid">
+               <div class="about__box">
+                  <div class="about__img">
+                     <img src="./assets/images/cap_image.png" alt="">
+                  </div>
+                  <div>
+                     <h2 class="about__subtitle">Hi, I am Dr. Ravikiran Yeleswarapu</h2>
+                     <p class="about__text" style="text-align: justify;">
+                        An Assistant Professor specializing in Computer Engineering at the Department of Electrical and Electronics Engineering. 
+                        My research interests lie in computer architecture, embedded systems, and human-centric technologies. 
+                        <br><br>
+                        Specifically, I explore topics such as memory, reliability, power, IoT applications, and the intersection of technology and mental health.
+                        <br><br>
+                        I am dedicated to fostering innovation and inspiring the next generation of engineers. 
+                        Through a combination of academic rigor and real-world insights, I aim to equip students with the knowledge and skills necessary to tackle today's engineering challenges.
+                     </p>
+                  </div>
+               </div>
+            </div>
+         </section>
 
-                <div class="nav__toggle" id="nav-toggle">
-                    <i class='bx bx-menu'></i>
-                </div>
-            </nav>
-        </header>
-
-        <main class="l-main">
-            <!--===== HOME =====-->
-            <section class="home bd-grid" id="home">
-                <div class="home__data">
-                    <h1 class="home__title">Dr. Ravikiran <br> Yeleswarapu 
-                    </h1>
-                    <h2 style="font-size: x-large;">Assistant Professor</h2>
-                    <h2 style="font-size:large;">Dept. of Electrical and Electronics Engineering</h2>
-                    <br><br>
-                    <a href="#contact" class="button">Contact</a>
-                </div>
-                <div class="home__social">
-                    <a href="https://www.linkedin.com/in/raviyel/" class="home__social-icon" target="_blank" rel="noopener noreferrer"><i id = 'icons' class='bx bxl-linkedin'></i></a>
-                    <a href="https://scholar.google.com/citations?user=ky_-TJwAAAAJ&hl=en" class="home__social-icon" target="_blank" rel="noopener noreferrer"><i id = 'icons' class='bx bxs-graduation' ></i></a>
-                    <a href="https://github.com/Hrishi2705" class="home__social-icon" target="_blank" rel="noopener noreferrer"><i id = 'icons' class='bx bxl-github' ></i></a>
-                </div>
-
-                <div class="home__img">
-                    <div class="about__img">
-                        <img src="./assets/images/pic2.jpeg" alt="">
-                    </div>
-                    <!-- <div class="blob">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </div> -->
-                </div>
-
-            </section>
-
-            <!--===== ABOUT =====-->
-            <section class="about section " id="about">
-                <h2 class="section-title">About</h2>
-
-                <div class="about__container bd-grid">
-
-                    
-                    <div class="about__box">
-                        <div class="about__img">
-                            <img src="./assets/images/cap_image.png" alt="">
+         <!--===== EDUCATION =====-->
+         <section class="education section" id="education">
+            <h2 class="section-title">Education</h2>
+            <div class="education_container bd-grid">
+               <div class="grid-container-edu">
+                  <div class="grid-child-work">
+                     <div class="edu__box">
+                        <div class="edu__img">
+                           <img src="./assets/images/iowa_img.png" class="bits_img">
                         </div>
-                        <div>
-                            <h2 class="about__subtitle">Hi, I am Dr. Ravikiran Yeleswarapu</h2>
-                            <p class="about__text" style="text-align: justify;">
-                                An Assistant Professor specializing in Computer Engineering at the Department of Electrical and Electronics Engineering. 
-                                My research interests lie in computer architecture, embedded systems, and human-centric technologies. 
-                                <br><br>
-                                Specifically, I explore topics such as memory, reliability, power, IoT applications, and the intersection of technology and mental health.
-                                <br><br>
-                                I am dedicated to fostering innovation and inspiring the next generation of engineers. 
-                                Through a combination of academic rigor and real-world insights, I aim to equip students with the knowledge and skills necessary to tackle today's engineering challenges.
-                            </p> 
+                        <div class="edu_title">
+                           <div class="edu_name">
+                              <h2>Iowa State University (ISU) </h2>
+                              <br>
+                              <p><b>PhD in Computer Engineering</b></p>
+                           </div>
                         </div>
-                                  
-                    </div>                                   
-                </div>
-            </section>
-
-            <!--===== EDUCATION =====-->
-            <section class="education section" id="education">
-                <h2 class="section-title">Education</h2>
-
-                <div class="education_container bd-grid">
-                    <div class="grid-container-edu">
-
-                        <div class="grid-child-work">
-                            <div class="edu__box">
-                                <div class="edu__img">
-                                        <img src="./assets/images/iowa_img.png" class="bits_img">
-                                </div>
-                                <div class="edu_title">
-                                    
-                                    <div class="edu_name">
-                                        <h2>Iowa State University (ISU) </h2>
-                                        <br>
-                                        <p><b>PhD in Computer Engineering</b></p>
-                                        <!-- <p>
-                                            <b>Minor Degree :</b> Computing and Intelligence<br>
-                                            <b>CGPA :</b> 7.23 <br>
-                                            <b>Coursework :</b> DSA, OS, AI, Software Engineering, OOPS, Cryptography
-                                        </p> -->
-                                    </div>
-                                </div>
-                            </div>
+                     </div>
+                  </div>
+                  <div class="grid-child-work">
+                     <div class="edu__box">
+                        <div class="edu__img">
+                           <img src="./assets/images/bits-img.png" class="bits_img">
                         </div>
-                        <div class="grid-child-work">
-                            <div class="edu__box">
-                                <div class="edu__img">
-                                        <img src="./assets/images/bits-img.png" class="bits_img">
-                                </div>
-                                <div class="edu_title">
-                                    
-                                    <div class="edu_name">
-                                        <h2>Birla Institute of Technology and Science (BITS)</h2>
-                                        <br>
-                                        <p><b>MSc. Physics</b></p>
-                                        <p><b>B.E(Hons) Electrical & Electronics Engineering</b></p>
-                                        <!-- <p>
-                                            <b>JEE Mains (B.Tech) :</b> Secured 98.6% <br>
-                                            <b>JEE Mains (B.Arch) :</b> Secured an All India Rank of 139 <br>
-                                            <b>TS EAMCET :</b> Secured a State Rank of 1230 
-                                        </p> -->
-                                    </div>
-                                </div>
-                            </div>
+                        <div class="edu_title">
+                           <div class="edu_name">
+                              <h2>Birla Institute of Technology and Science (BITS)</h2>
+                              <br>
+                              <p><b>MSc. Physics</b></p>
+                              <p><b>B.E(Hons) Electrical & Electronics Engineering</b></p>
+                           </div>
                         </div>
-                    </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
 
-                    <!-- <a href="" class="work__img">
-                        <img src="assets/img/work1.jpg" alt="">
-                    </a>
-                    <a href="" class="work__img">
-                        <img src="assets/img/work2.jpg" alt="">
-                    </a>
-                    <a href="" class="work__img">
-                        <img src="assets/img/work3.jpg" alt="">
-                    </a>
-                    <a href="" class="work__img">
-                        <img src="assets/img/work4.jpg" alt="">
-                    </a>
-                    <a href="" class="work__img">
-                        <img src="assets/img/work5.jpg" alt="">
-                    </a>
-                    <a href="" class="work__img">
-                        <img src="assets/img/work6.jpg" alt="">
-                    </a> -->
-                </div>
-            </section>
-
-
-            <!--===== RESEARCH =====-->
-            <section class="education section" id="research">
-                <h2 class="section-title">Research Interests</h2>
-
-                <div class="education_container bd-grid">
-                    <div class="grid-container-edu">
-
-                        <div class="grid-child-work">
-                            <div class="research__box">
-                                <div class="edu_title">
-                                    
-                                    <div class="edu_name">
-                                        <h2>Computer Architecture </h2>
-                                        <br>
-                                        <p><b>Memory, Reliability, Power, New computing Paradigms.</b></p>
-                                        <!-- <p>
-                                            <b>Minor Degree :</b> Computing and Intelligence<br>
-                                            <b>CGPA :</b> 7.23 <br>
-                                            <b>Coursework :</b> DSA, OS, AI, Software Engineering, OOPS, Cryptography
-                                        </p> -->
-                                    </div>
-                                </div>
-                                <div class="research__img">
-                                        <img src="./assets/images/comparch_img.png" class="bits_img">
-                                </div>
-                            </div>
+         <!--===== RESEARCH =====-->
+         <section class="education section" id="research">
+            <h2 class="section-title">Research Interests</h2>
+            <div class="education_container bd-grid">
+               <div class="grid-container-edu">
+                  <div class="grid-child-work">
+                     <div class="research__box">
+                        <div class="edu_title">
+                           <div class="edu_name">
+                              <h2>Computer Architecture </h2>
+                              <br>
+                              <p><b>Memory, Reliability, Power, New computing Paradigms.</b></p>
+                           </div>
                         </div>
-                        <div class="grid-child-work">
-                            <div class="research__box">
-                                <div class="edu_title">
-                                    
-                                    <div class="edu_name">
-                                        <h2>Embedded Systems </h2>
-                                        <br>
-                                        <!-- <p><b>MSc. Physics</b></p> -->
-                                        <p><b>Power, IOT - agriculture, food, environment, smart services, industry automation.
-                                        </b></p>
-                                        <!-- <p>
-                                            <b>JEE Mains (B.Tech) :</b> Secured 98.6% <br>
-                                            <b>JEE Mains (B.Arch) :</b> Secured an All India Rank of 139 <br>
-                                            <b>TS EAMCET :</b> Secured a State Rank of 1230 
-                                        </p> -->
-                                    </div>
-                                </div>
-                                <div class="research__img">
-                                    <img src="./assets/images/embeddedsystem_img.png" class="bits_img">
-                                </div>
-                            </div>
-                            
+                        <div class="research__img">
+                           <img src="./assets/images/comparch_img.png" class="bits_img">
                         </div>
-                        <div class="grid-child-work">
-                            <div class="research__box">
-                                <div class="edu_title">
-                                    
-                                    <div class="edu_name">
-                                        <h2>Technology & Mental Health</h2>
-                                        <br>
-                                        <!-- <p><b>MSc. Physics</b></p> -->
-                                        <p><b>Human-centric Technologies - AI/Algorithms
-                                            Arts & mental health                                      
-                                        </b></p>
-                                        <!-- <p>
-                                            <b>JEE Mains (B.Tech) :</b> Secured 98.6% <br>
-                                            <b>JEE Mains (B.Arch) :</b> Secured an All India Rank of 139 <br>
-                                            <b>TS EAMCET :</b> Secured a State Rank of 1230 
-                                        </p> -->
-                                    </div>
-                                </div>
-                                <div class="research__img">
-                                    <img src="./assets/images/mentalhealth_img.png" class="bits_img">
-                            </div>
-                            </div>
-                            
+                     </div>
+                  </div>
+                  <div class="grid-child-work">
+                     <div class="research__box">
+                        <div class="edu_title">
+                           <div class="edu_name">
+                              <h2>Embedded Systems </h2>
+                              <br>
+                              <p><b>Power, IOT - agriculture, food, environment, smart services, industry automation.
+                                 </b>
+                              </p>
+                           </div>
                         </div>
-                    </div>
-                </div>
-            </section>
-
-            <!--===== WORK =====-->
-            <section class="work section" id="work">
-                <h2 class="section-title">Work</h2>
-
-                <div class="work__container bd-grid">
-                    <div class="grid-container">
-
-                        <div class="grid-child-work">
-                            <div class="work__box">
-                                <div class="work__img">
-                                    <img src="./assets/images/qualcomm_img.png">
-                                </div>
-                                <div class="edu_title">
-                                    
-                                    <div class="edu_name">
-                                        <h2>Qualcomm </h2>
-                                        <h3 style="margin-top: 0%;">San Diego, California</h3>
-                                        <p style="font-size: large;"><b>Sr. Engineer</b></p>
-                                        <p><b>2020 - 2023</b></p><br>
-                                           
-                                        <p align = "justify">
-                                            Automotive SOC power modelling and analysis.
-                                            <span class="mybox1" id="mybox1id">
-                                                <!-- <br> -->
-                                                <!-- <br> -->
-                                                <!-- <b>Project 1:</b> Built a Digitization Engine using a 6-stage scraping cycle to extract, process and consolidate data from diverse sources. Designed a Node.js interface to facilitate user interaction and efficient data storage.
-                                                <br><br>
-                                                <b>Project 2:</b> Created an Admin Dashboard for monitoring sales personnel and store performance. Leveraged Express and MongoDB to build a dynamic admin interface for centralized sales tracking and analysis. -->
-                                            </span>
-                                        </p>
-                                        
-                                        
-                                        <!-- <button id="mybuttonid" class="readmore_btn_1" onclick="changeReadMore1()">Read More</button>  -->
-                                    </div>
-                                </div>
-                            </div>
+                        <div class="research__img">
+                           <img src="./assets/images/embeddedsystem_img.png" class="bits_img">
                         </div>
-                        <div class="grid-child-work">
-                            <div class="work__box">
-                                <div class="work__img">
-                                    <img src="./assets/images/qualcomm_img.png">
-                                </div>
-                                <div class="edu_title">
-                                    
-                                    <div class="edu_name">
-                                        <h2>Qualcomm </h2> 
-                                        <h3 style="margin-top: 0%;">Hyderabad,India</h3>
-                                        <p style="font-size: large;"><b>Engineer</b></p>
-                                        <p><b>2011 - 2014</b></p><br>
-                                           
-                                        <p align = "justify">
-                                            Worked on WLAN solutions for mobile platforms
-                                            <span class="mybox2" id="mybox2id">
-                                                <!-- <br> -->
-                                                <!-- <br> -->
-                                                <!-- The final product takes in raw, analog inputs from sensors to control relays while also broadcasting the readings to another device using the Bluetooth Protocol. -->
-                                            </span>
-                                        </p>
-                                        
-                                        
-                                        <!-- <button id="mybuttonid" class="readmore_btn_2" onclick="changeReadMore2()">Read More</button>  -->
-                                    </div>
-                                </div>
-                            </div>
+                     </div>
+                  </div>
+                  <div class="grid-child-work">
+                     <div class="research__box">
+                        <div class="edu_title">
+                           <div class="edu_name">
+                              <h2>Technology & Mental Health</h2>
+                              <br>
+                              <p>
+                                <b>Human-centric Technologies - AI/Algorithms Arts & mental health                                      
+                                </b>
+                              </p>
+                           </div>
                         </div>
-                        <div class="grid-child-work">
-                            <div class="work__box">
-                                <div class="work__img">
-                                    <img src="./assets/images/amd_img.png">
-                                </div>
-                                <div class="edu_title">
-                                    
-                                    <div class="edu_name">
-                                        <h2>AMD Research </h2>
-                                        <h3 style="margin-top: 0%;">Austin, Texas</h3>
-                                        <p style="font-size: large;"><b>Intern</b></p>
-                                        <p><b>2017</b></p>
-                                        <br>
-                                           
-                                        <p align = "justify">
-                                            Development of x86 CPU Power model targeted for future exascale applications.
-                                            <!-- <span class="mybox1" id="mybox1id"> -->
-                                                <!-- <br> -->
-                                                <!-- <br> -->
-                                                <!-- <b>Project 1:</b> Built a Digitization Engine using a 6-stage scraping cycle to extract, process and consolidate data from diverse sources. Designed a Node.js interface to facilitate user interaction and efficient data storage.
-                                                <br><br>
-                                                <b>Project 2:</b> Created an Admin Dashboard for monitoring sales personnel and store performance. Leveraged Express and MongoDB to build a dynamic admin interface for centralized sales tracking and analysis. -->
-                                            <!-- </span> -->
-                                        </p>
-                                        
-                                        
-                                        <!-- <button id="mybuttonid" class="readmore_btn_1" onclick="changeReadMore1()">Read More</button>  -->
-                                    </div>
-                                </div>
-                            </div>
+                        <div class="research__img">
+                           <img src="./assets/images/mentalhealth_img.png" class="bits_img">
                         </div>
-                        <div class="grid-child-work">
-                            <div class="work__box">
-                                <div class="work__img">
-                                    <img src="./assets/images/intel_img.png">
-                                </div>
-                                <div class="edu_title">
-                                    
-                                    <div class="edu_name">
-                                        <h2>Intel</h2>
-                                            <h3 style="margin-top: 0%;">Hillsboro, Oregon</h3>
-                                        <p style="font-size: large;"><b>Intern</b></p>
-                                        <p><b>2017</b></p>
-                                        <br>
-                                           
-                                        <p align = "justify">
-                                            Contributed to Post-Silicon Performance analysis of Atom based Soc.
-                                            <!-- <span class="mybox1" id="mybox1id"> -->
-                                                <!-- <br> -->
-                                                <!-- <br> -->
-                                                <!-- <b>Project 1:</b> Built a Digitization Engine using a 6-stage scraping cycle to extract, process and consolidate data from diverse sources. Designed a Node.js interface to facilitate user interaction and efficient data storage.
-                                                <br><br>
-                                                <b>Project 2:</b> Created an Admin Dashboard for monitoring sales personnel and store performance. Leveraged Express and MongoDB to build a dynamic admin interface for centralized sales tracking and analysis. -->
-                                            <!-- </span> -->
-                                        </p>
-                                        
-                                        
-                                        <!-- <button id="mybuttonid" class="readmore_btn_1" onclick="changeReadMore1()">Read More</button>  -->
-                                    </div>
-                                </div>
-                            </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+
+         <!--===== WORK =====-->
+         <section class="work section" id="work">
+            <h2 class="section-title">Work</h2>
+            <div class="work__container bd-grid">
+               <div class="grid-container">
+                  <div class="grid-child-work">
+                     <div class="work__box">
+                        <div class="work__img">
+                           <img src="./assets/images/qualcomm_img.png">
                         </div>
-                    </div>
-                </div>
-            </section>
-
-             <!--===== PROJECTS =====-->
-            <!-- <section class="projects section" id="projects">
-                <h2 class="section-title"> Projects </h2>
-
-                <div class="work__container bd-grid">
-                    <div class="grid-container">
-                        <div class="grid-child-work">
-                            <div class="project__box">
-                                <h2>Admin Dashboard</h2>
-                                <p align = "justify">The Admin Dashboard is a full stack web application developed to provide centralized monitoring of personnel performance and work oversight through a user friendly interface for tracking key data.</p>
-                                <div id="links">
-                                    <a href="https://github.com/Hrishi2705/Admin-Dashboard" class="link_button" target="_blank">Github Repo</a>
-                                    <a href="https://sales-admin-dashboard-t511.onrender.com/" class="link_button" target="_blank">Live Link</a>
-                                </div>
-                            </div>
+                        <div class="edu_title">
+                           <div class="edu_name">
+                              <h2>Qualcomm </h2>
+                              <h3 style="margin-top: 0%;">San Diego, California</h3>
+                              <p style="font-size: large;"><b>Sr. Engineer</b></p>
+                              <p><b>2020 - 2023</b></p>
+                              <br>
+                              <p style="text-align: justify;">
+                                 Automotive SOC power modelling and analysis.
+                                 <span class="mybox1" id="mybox1id">
+                                 </span>
+                              </p>
+                           </div>
                         </div>
-                        <div class="grid-child-work">
-                            <div class="project__box">
-                                <h2>Pipeline Interface</h2>
-                                <p align = "justify">The Pipeline Interface is a versatile web application that automates and streamlines the execution of scripts through an easy to use interface, leveraging MongoDB as the database to manage scripts outputs.</p>
-                                <div id="links">
-                                    <a href="https://github.com/Hrishi2705/Pipeline-Interface" class="link_button" target="_blank">Github Repo</a>
-                                    <a href="https://pipeline-interface.onrender.com/" class="link_button" target="_blank">Live Link</a>
-                                </div>
-                            </div>
+                     </div>
+                  </div>
+                  <div class="grid-child-work">
+                     <div class="work__box">
+                        <div class="work__img">
+                           <img src="./assets/images/qualcomm_img.png">
                         </div>
-                        <div class="grid-child-work">
-                            <div class="project__box">
-                                <h2>Timing Consensus Scheduler</h2>
-                                <p align = "justify">Timing Consensus Scheduler is a web application built using the Django framework that allows users to manage their availability, book facilities, and check the availability of other users. </p>
-                                <div id="links">
-                                    <a href="https://github.com/Hrishi2705/Timing-Consensus-Scheduler" class="link_button" target="_blank">Github Repo</a>
-                                </div>
-                            </div>
+                        <div class="edu_title">
+                           <div class="edu_name">
+                              <h2>Qualcomm </h2>
+                              <h3 style="margin-top: 0%;">Hyderabad,India</h3>
+                              <p style="font-size: large;"><b>Engineer</b></p>
+                              <p><b>2011 - 2014</b></p>
+                              <br>
+                              <p style="text-align: justify;">
+                                 Worked on WLAN solutions for mobile platforms
+                                 <span class="mybox2" id="mybox2id">
+                                 </span>
+                              </p>
+                           </div>
                         </div>
-                        <div class="grid-child-work">
-                            <div class="project__box">
-                                <h2>Project Bridge (Ongoing)</h2>
-                                <p align = "justify"> Project Bridge is a comprehensive platform facilitating streamlined project request management, efficient communication between teachers and students, and smart filtering for project allocation</p>
-                                <div id="links">
-                                    <a href="https://github.com/Hrishi2705/Project-Bridge" class="link_button" target="_blank">Github Repo</a>
-                                </div>
-                            </div>
+                     </div>
+                  </div>
+                  <div class="grid-child-work">
+                     <div class="work__box">
+                        <div class="work__img">
+                           <img src="./assets/images/amd_img.png">
                         </div>
-                    </div>
-                </div>
-            </section> -->
+                        <div class="edu_title">
+                           <div class="edu_name">
+                              <h2>AMD Research </h2>
+                              <h3 style="margin-top: 0%;">Austin, Texas</h3>
+                              <p style="font-size: large;"><b>Intern</b></p>
+                              <p><b>2017</b></p>
+                              <br>
+                              <p style="text-align: justify;">
+                                 Development of x86 CPU Power model targeted for future exascale applications.
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="grid-child-work">
+                     <div class="work__box">
+                        <div class="work__img">
+                           <img src="./assets/images/intel_img.png">
+                        </div>
+                        <div class="edu_title">
+                           <div class="edu_name">
+                              <h2>Intel</h2>
+                              <h3 style="margin-top: 0%;">Hillsboro, Oregon</h3>
+                              <p style="font-size: large;"><b>Intern</b></p>
+                              <p><b>2017</b></p>
+                              <br>
+                              <p style="text-align: justify;">
+                                 Contributed to Post-Silicon Performance analysis of Atom based Soc.
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
 
-            <!--===== CONTACT =====-->
-            <section class="contact section" id="contact">
-                <h2 class="section-title">Contact</h2>
-                <div class="about__container bd-grid">
+         <!--===== CONTACT =====-->
+         <section class="contact section" id="contact">
+            <h2 class="section-title">Contact</h2>
+            <div class="about__container bd-grid">
+               <div class="contact__box">
+                  <h2 class="about__subtitle" style="align-content: center; text-align: center;">Dr. Ravikiran Yeleswarapu</h2>
+                  <div class="contact__box_2">
+                     <div class="skills__data">
+                        <div class="skills__names">
+                           <span class="skills__name">
+                           <b>Office: </b> I-202, BITS-Pilani Hyderabad Campus 
+                           </span>
+                        </div>
+                     </div>
+                     <div class="skills__data">
+                        <div class="skills__names">
+                           <span class="skills__name">
+                           <b>Email:  </b> ravikiran.y@hyderabad.bits-pilani.ac.in
+                           </span>
+                        </div>
+                     </div>
+                     <div class="skills__data">
+                        <div class="skills__names">
+                           <span class="skills__name">
+                           <b>Phone:  </b> 040-66303614
+                           </span>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+      </main>
 
-                    
-                    <div class="contact__box">
-                            <h2 class="about__subtitle" style="align-content: center; text-align: center;">Dr. Ravikiran Yeleswarapu</h2>
-                            <div class="contact__box_2"> 
-                                <div class="skills__data"> 
-                                    <div class="skills__names">
-                                        <span class="skills__name">
-                                            <b>Office: </b> I-202, BITS-Pilani Hyderabad Campus 
-                                        </span>
-                                    </div>
-                            </div>
-                            <div class="skills__data">
-                                <div class="skills__names">
-                                    <span class="skills__name">
-                                        <b>Email:  </b> ravikiran.y@hyderabad.bits-pilani.ac.in
-                                    </span>
-                                </div>
-                            </div>
-                            <div class="skills__data">
-                                <div class="skills__names">
-                                    <span class="skills__name">
-                                        <b>Phone:  </b> 040-66303614
-                                    </span>
-                                </div>
-                            </div>
-                            </div>
-                        <!-- </div>           -->
-                    </div>                                   
-                </div>
-                <!-- <div class="contact__container bd-grid">
-                    <form action="https://formsubmit.co/058861659185154e0d6c1e2e1737f96f" method="POST"> 
-                    <input type="text" name="Name" placeholder="Full Name" class="contact__input" required>
-                    <input type="email" name="Email" placeholder="Email" class="contact__input" required>
-                    <textarea name="Message" placeholder="Message" class="contact__input" required></textarea>
-                    <button type="submit" class="contact__button button" >Send</button>
-                    </form>
-                </div> -->
-            </section>
-        </main>
+      <!--===== FOOTER =====-->
+      <footer class="footer">
+      </footer>
 
-        <!--===== FOOTER =====-->
-        <footer class="footer">
-        </footer>
-
-
-        <!--===== SCROLL REVEAL =====-->
-        <script src="https://unpkg.com/scrollreveal"></script>
-
-        <!--===== MAIN JS =====-->
-        <script src="./assets/js/main.js"></script>
-    </body>
+      <!--===== SCROLL REVEAL =====-->
+      <script src="https://unpkg.com/scrollreveal"></script>
+      
+      <!--===== MAIN JS =====-->
+      <script src="./assets/js/main.js"></script>
+   </body>
 </html>
