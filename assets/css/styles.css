@@ -157,7 +157,7 @@ img {
 .nav {
   height: var(--header-height);
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
   font-weight: var(--font-semi);
 }
@@ -338,7 +338,8 @@ img {
   display: inline-block;
   background-color: var(--first-color);
   color: #fff;
-  padding: 0.75rem 2.5rem;
+  margin-right: 1%;
+  padding: 0.75rem 1.5rem;
   font-weight: var(--font-semi);
   border-radius: 0.5rem;
   transition: 1s;
@@ -796,4 +797,13 @@ img {
   /* .home__img {
     width: 450px;
   } */
+}
+
+
+.positions__box{
+  box-shadow: 0px 4px 25px rgba(14, 36, 49, 0.15);
+  border-radius: 0.5rem;
+  overflow: hidden;
+  padding: 2%;
+  margin: 2%;
 }
